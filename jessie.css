@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(75deg,skyblue,rgb(230, 91, 228));
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+#sidebar{
+    width: 120px;
+    height: 170px;
+    background-image: url(./side1.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    transition: 3s all;
+}
+#sidebar:hover{
+   background-image: url(./side4.jpg);
+   background-size: cover;
+   cursor: pointer;
+}
+#content{
+    line-height: 25px;
+    font-style: italic;
+    font-size: 15px;
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    text-align: justify;
+}
+#side-content{
+    line-height: 25px;
+    font-style: italic;
+    font-size: 15px;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+#container{
+    width: 80vw;
+    height: 70vh;
+    background-image: linear-gradient(75deg,tomato,rgb(218, 218, 30));
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+    position: relative;
+}
+.happie{
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.bday{
+    color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 280px;
+}
+audio{
+    color: pink;
+    position: relative;
+    left: 230px;
+    bottom: 30px;
+}
+.jessie{
+    width: 70vw;
+    height: 40vh;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 5px black;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.jessie .jes{
+    width: 10vw;
+    height: 30vh;
+    background-image: linear-gradient(75deg,rgb(0, 255, 247),rgb(7, 4, 49));
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: 2s all;
+}
+.jes,h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    /* font-family: sans-serif; */
+}
+#j:hover{
+    color: transparent;
+    background-image: url(./pic1.jpg);
+    background-size: cover;
+    transform: translateY(-150px);
+    cursor: pointer;
+}
+#je:hover{
+    color: transparent;
+    background-image: url(./pic2.jpg);
+    background-size: cover;
+    transform: translateY(-150px);
+    cursor: pointer;
+}
+#jes:hover{
+    color: transparent;
+    background-image: url(./icon.jpg);
+    background-size: cover;
+    transform: translateY(-150px);
+    cursor: pointer;
+}
+#jess:hover{
+    color: transparent;
+    background-image: url(./pic4.jpg);
+    background-size: cover;
+    transform: translateY(-150px);
+    cursor: pointer;
+}
+#jessi:hover{
+    color: transparent;
+    background-image: url(./pic5.jpg);
+    background-size: cover;
+    transform: translateY(-150px);
+    cursor: pointer;
+}
+#jessie:hover{
+    color: transparent;
+    background-image: url(./pic6.jpg);
+    background-size: cover;
+    transform: translateY(-150px);
+    cursor: pointer;
+}
+
